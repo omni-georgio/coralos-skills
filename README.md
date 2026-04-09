@@ -14,13 +14,18 @@ Install and use skills through the `npx skills` CLI:
 - Getting started guide: [Using the Coral Cloud API](https://docs.coralos.ai/cloud/using-api)
 - Coral Cloud API docs: [Coral Cloud 1-Page API Reference](https://docs.coralos.ai/cloud/using-api#coral-cloud-1-page-api-reference)
 - Coral Cloud dashboard: [coralcloud.ai/dashboard](https://coralcloud.ai/dashboard)
-- OpenClaw setup guide: `references/coralos-openclaw-setup-guide.md`
+- OpenClaw setup guide: `guides/coralos-openclaw-setup-guide.md`
 
 ## Included
 
-- `skills/run-remote-coralos-agent/SKILL.md` - main reusable skill instructions
+- `skills/coral-registry/SKILL.md` - discover and inspect available agents
+- `skills/coral-session-create/SKILL.md` - configure and launch sessions
+- `skills/coral-session-manage/SKILL.md` - monitor, inspect, and close sessions
 - `references/coralos-api-notes.md` - what worked, what was flaky, and debugging notes
 - `references/payloads.md` - payload-level guidance
+- `references/auth-and-base-url.md` - shared auth/header/base URL setup
+- `references/error-codes.md` - quick troubleshooting map
+- `guides/` - setup and operator-focused walkthroughs
 - `examples/payloads/` - copy-pasteable JSON payloads
 - `scripts/` - small curl helpers for auth/session flows
 
@@ -57,4 +62,3 @@ After installing a skills pack, run the API workflow locally:
 - Marketplace and hosted agents worked best when session settings were explicit.
 - Most reliable visible output path was instructing agent to write into a session thread.
 - Custom-tool webhook outputs appeared constrained by accepted callback hosts (`custom_tools_hostname_fkey` seen repeatedly).
-

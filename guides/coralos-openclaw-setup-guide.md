@@ -10,7 +10,7 @@ Use OpenClaw as your local/operator interface while running CoralOS workflows, i
 
 - Node.js 18+ and `npm`/`npx`
 - CoralOS API key
-- Access to Coral Cloud dashboard: <https://coralcloud.ai/dashboard>
+- Access to Coral Cloud dashboard: [https://coralcloud.ai/dashboard](https://coralcloud.ai/dashboard)
 - OpenClaw installed locally
 
 ## Step 1: Install Skills CLI
@@ -67,7 +67,8 @@ bash scripts/get_session_state.sh <namespace> <session_id>
 
 ## Related Docs
 
-- Coral Cloud API guide: <https://docs.coralos.ai/cloud/using-api>
-- Coral Cloud API reference: <https://docs.coralos.ai/cloud/using-api#coral-cloud-1-page-api-reference>
-- Internal payload notes: `references/payloads.md`
-- Internal API notes: `references/coralos-api-notes.md`
+- Coral Cloud API guide: [https://docs.coralos.ai/cloud/using-api](https://docs.coralos.ai/cloud/using-api)
+- Coral Cloud API reference: [https://docs.coralos.ai/cloud/using-api#coral-cloud-1-page-api-reference](https://docs.coralos.ai/cloud/using-api#coral-cloud-1-page-api-reference)
+- Internal payload notes: `../references/payloads.md`
+- Internal API notes: `../references/coralos-api-notes.md`
+
