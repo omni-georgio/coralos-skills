@@ -1,0 +1,20 @@
+{
+  "namespace": "default",
+  "registrySourceId": "marketplace",
+  "agentSlug": "deepwiki",
+  "annotations": {},
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the repository https://github.com/coralos/skills. Create a new thread in this Coral Cloud session and write findings there with: summary, architecture notes, strengths, risks, and recommended next steps."
+      }
+    ]
+  },
+  "execution": {
+    "runtimeSettings": {
+      "maxSteps": 32
+    }
+  },
+  "extendedEndReport": true
+}

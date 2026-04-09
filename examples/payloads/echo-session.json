@@ -1,0 +1,20 @@
+{
+  "namespace": "default",
+  "registrySourceId": "marketplace",
+  "agentSlug": "echo",
+  "annotations": {},
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Echo this message and confirm session wiring is working."
+      }
+    ]
+  },
+  "execution": {
+    "runtimeSettings": {
+      "maxSteps": 8
+    }
+  },
+  "extendedEndReport": true
+}

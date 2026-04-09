@@ -1,0 +1,27 @@
+{
+  "namespace": "default",
+  "registrySourceId": "marketplace",
+  "agentSlug": "echo",
+  "annotations": {},
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Call the configured custom tool and send output to the configured webhook callback."
+      }
+    ]
+  },
+  "execution": {
+    "runtimeSettings": {
+      "maxSteps": 12
+    }
+  },
+  "customTools": [
+    {
+      "name": "debugWebhook",
+      "description": "Test tool callback delivery",
+      "webhookUrl": "https://example-callback-host.invalid/coral-callback"
+    }
+  ],
+  "extendedEndReport": true
+}
