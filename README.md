@@ -1,3 +1,5 @@
+<img src="assets/coralos-logo.png" alt="CoralOS logo" width="900" />
+
 # CoralOS Skills Starter
 
 General-purpose starter repo for reusable skills and examples when building with CoralOS.
@@ -62,3 +64,4 @@ After installing a skills pack, run the API workflow locally:
 - Marketplace and hosted agents worked best when session settings were explicit.
 - Most reliable visible output path was instructing agent to write into a session thread.
 - Custom-tool webhook outputs appeared constrained by accepted callback hosts (`custom_tools_hostname_fkey` seen repeatedly).
+
