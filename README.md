@@ -4,6 +4,8 @@
 
 General-purpose starter repo for reusable skills and examples when building with CoralOS.
 
+<img width="1168" height="365" alt="Screenshot_2026-04-09_at_16 35 51" src="https://github.com/user-attachments/assets/be601379-df79-433b-b17b-cf7ac0f99d52" />
+
 ## Install With `npx skills`
 
 Install and use skills through the `npx skills` CLI:
@@ -66,4 +68,6 @@ After installing a skills pack, run the API workflow locally:
 - Custom-tool webhook outputs appeared constrained by accepted callback hosts (`custom_tools_hostname_fkey` seen repeatedly).
 
 ---
+
+<img width="1166" height="367" alt="Screenshot_2026-04-09_at_16 35 39" src="https://github.com/user-attachments/assets/1a060022-e6b2-4f5d-93aa-3e40fa1f62b9" />
 
