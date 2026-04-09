@@ -1,8 +1,7 @@
 ---
-
-## name: run-remote-coralos-agent
-
+name: run-remote-coralos-agent
 description: Run CoralOS agent workflows over the API, including Coral Cloud hosted sessions, registry checks, payload construction, UI-visible thread outputs, and debugging common validation failures.
+---
 
 # Run Remote CoralOS Agent
 

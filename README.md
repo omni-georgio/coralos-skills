@@ -14,6 +14,7 @@ Install and use skills through the `npx skills` CLI:
 - Getting started guide: [Using the Coral Cloud API](https://docs.coralos.ai/cloud/using-api)
 - Coral Cloud API docs: [Coral Cloud 1-Page API Reference](https://docs.coralos.ai/cloud/using-api#coral-cloud-1-page-api-reference)
 - Coral Cloud dashboard: [coralcloud.ai/dashboard](https://coralcloud.ai/dashboard)
+- OpenClaw setup guide: `references/coralos-openclaw-setup-guide.md`
 
 ## Included
 
